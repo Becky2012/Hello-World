@@ -1,6 +1,6 @@
-# Hello-World
+.# Hello-World
 Programs: Geocode_impute.py
-This code is to impute the missing values by using closest match with the same variable in reference file
+This code is to impute the missing values by using closest match with the same variable in reference file.
 Given two tables with two variables (one is used to perform match, the other is with missing values need to impute
 
 Example of input file with missing values                                                        Example of reference file
@@ -31,5 +31,5 @@ To fill in the missing values:
                                        3333322	  673827498716253  	#<Imputed with 9 char ZIP>
                                           ...          ...
                                           ...          ...
-                                       444444444	673827498717894	  #<Imputed with 9 char ZIP>
+                                       444444444	673827498717894	#<Imputed with 9 char ZIP>
 
